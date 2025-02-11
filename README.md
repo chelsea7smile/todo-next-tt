@@ -1,40 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Next.js Todo App
+
+A simple Next.js Todo application using React Query, Axios, Tailwind CSS, and React Toastify.
+
+## Features
+
+- **Fetch Todos:** Retrieves todo items from [jsonplaceholder](https://jsonplaceholder.typicode.com/todos).
+- **CRUD Operations:** Add, edit, and delete tasks with optimistic updates.
+- **Local Storage:** Persists user-created todos in the browser.
+- **Responsive Design:** Built with Tailwind CSS for a responsive UI.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or higher recommended)
+- npm (comes with Node.js) or [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/chelsea7smile/todo-next-tt.git
+
+2.	Change directory into the project’s root folder (the repository contains multiple files and directories):
+
+cd todo-next-tt
+
+3.	Install dependencies:
+Using npm:
 
 ```bash
+npm install
+
+Using Yarn:
+
+```bash 
+yarn
+
+
+Running the Project
+
+To start the development server, run:
+
+Using npm:
 npm run dev
-# or
+
+Using Yarn:
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser at http://localhost:3000 to view the app.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Building for Production
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To create an optimized production build:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Using npm:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
 
-## Learn More
+Then, to start the production server:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Technologies Used
+	•	Next.js
+	•	React Query
+	•	Axios
+	•	Tailwind CSS
+	•	React Toastify
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+  nextjs-todo-app/
+├── components/
+│   ├── TodoHeader.tsx
+│   ├── TodoForm.tsx
+│   ├── TodoItem.tsx
+│   └── TodoList.tsx
+├── hooks/
+│   └── useTodos.ts
+├── pages/
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   └── index.tsx
+├── services/
+│   └── todoService.ts
+├── styles/
+│   └── globals.css
+├── types/
+│   └── todo.ts
+├── utils/
+│   └── localStorage.ts
+├── package.json
+├── next.config.js
+└── README.md
