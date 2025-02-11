@@ -39,7 +39,7 @@ Using Yarn:
 yarn
 
 
-Running the Project
+4.	Running the Project
 
 To start the development server, run:
 
@@ -49,11 +49,11 @@ npm run dev
 Using Yarn:
 yarn dev
 
-Open your browser at http://localhost:3000 to view the app.
+  Open your browser at http://localhost:3000 to view the app.
 
-Building for Production
+  Building for Production
 
-To create an optimized production build:
+  To create an optimized production build:
 
 Using npm:
 
@@ -65,33 +65,33 @@ Then, to start the production server:
 ```bash
 npm run start
 
-Technologies Used
-	•	Next.js
-	•	React Query
-	•	Axios
-	•	Tailwind CSS
-	•	React Toastify
+  Technologies Used
+    •	Next.js
+    •	React Query
+    •	Axios
+    •	Tailwind CSS
+    •	React Toastify
 
-  nextjs-todo-app/
-├── components/
-│   ├── TodoHeader.tsx
-│   ├── TodoForm.tsx
-│   ├── TodoItem.tsx
-│   └── TodoList.tsx
-├── hooks/
-│   └── useTodos.ts
-├── pages/
-│   ├── _app.tsx
-│   ├── _document.tsx
-│   └── index.tsx
-├── services/
-│   └── todoService.ts
-├── styles/
-│   └── globals.css
-├── types/
-│   └── todo.ts
-├── utils/
-│   └── localStorage.ts
-├── package.json
-├── next.config.js
-└── README.md
+   ` nextjs-todo-app/
+  ├── components/
+  │   ├── TodoHeader.tsx
+  │   ├── TodoForm.tsx
+  │   ├── TodoItem.tsx
+  │   └── TodoList.tsx
+  ├── hooks/
+  │   └── useTodos.ts
+  ├── pages/
+  │   ├── _app.tsx
+  │   ├── _document.tsx
+  │   └── index.tsx
+  ├── services/
+  │   └── todoService.ts
+  ├── styles/
+  │   └── globals.css
+  ├── types/
+  │   └── todo.ts
+  ├── utils/
+  │   └── localStorage.ts
+  ├── package.json
+  ├── next.config.js
+  └── README.md `
