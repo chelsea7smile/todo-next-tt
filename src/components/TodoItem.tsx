@@ -1,5 +1,5 @@
 import React from "react";
-import { Todo, TodoItemProps } from "../types/todo";
+import { TodoItemProps } from "../types/todo";
 
 const TodoItem: React.FC<TodoItemProps> = ({
   todo,
