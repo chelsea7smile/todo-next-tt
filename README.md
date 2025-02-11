@@ -18,16 +18,16 @@ A simple Next.js Todo application using React Query, Axios, Tailwind CSS, and Re
 
 ### Installation
 
-1. **Clone the repository:**
+1.Clone the repository:
 
    ```bash
    git clone https://github.com/chelsea7smile/todo-next-tt.git
 
-2.	Change directory into the project’s root folder (the repository contains multiple files and directories):
+2.Change directory into the project’s root folder (the repository contains multiple files and directories):
 
 cd todo-next-tt
 
-3.	Install dependencies:
+3.Install dependencies:
 Using npm:
 
 ```bash
@@ -39,7 +39,7 @@ Using Yarn:
 yarn
 
 
-4.	Running the Project
+4.Running the Project
 
 To start the development server, run:
 
